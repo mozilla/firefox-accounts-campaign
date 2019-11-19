@@ -220,6 +220,10 @@ li {
 }
 
 @media (max-width: 1000px) {
+  header {
+    margin-bottom: 0;
+  }
+
   .header-image {
     display: none;
   }
