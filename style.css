@@ -219,8 +219,11 @@ li {
   color: #737373;
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 1000px) {
+  .video-center iframe {
+    width: 80vw;
+    height: 45vw;
+  }
 }
 
 @media (max-width: 800px) {
@@ -255,11 +258,6 @@ li {
 
   .cta p {
     max-width: 100%;
-  }
-
-  .video-center iframe {
-    width: 560px;
-    height: 315px;
   }
 }
 
