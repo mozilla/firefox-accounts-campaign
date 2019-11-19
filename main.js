@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('foo');
-
 const GOAL = 5000;
 const MAX_HEIGHT = 153;
 const MIN_HEIGHT = 11;
@@ -9,15 +7,20 @@ const MAX_TOP = 142;
 const MIN_TOP = 0;
 const RATIO = MAX_TOP/GOAL;
 
-let current = 800; // TODO: actually get it...
+getValue();
 
-if (current > GOAL) {
-  current = GOAL;
+async function getValue() {
+  const response = await fetch('https://raw.githubusercontent.com/mozilla/firefox-accounts-campaign/master/number');
+  let current = await response.json();
+
+  if (current > GOAL) {
+    current = GOAL;
+  }
+
+  const values = calculateValues(current);
+  setNewValues(values);
+  setTitle(current);
 }
-
-const values = calculateValues(current);
-setNewValues(values);
-setTitle(current);
 
 function setTitle(current) {
   const numberElement = document.querySelector('#number');
