@@ -220,13 +220,6 @@ li {
 }
 
 @media (max-width: 1000px) {
-  .video-center iframe {
-    width: 80vw;
-    height: 45vw;
-  }
-}
-
-@media (max-width: 800px) {
   .header-image {
     display: none;
   }
@@ -258,6 +251,11 @@ li {
 
   .cta p {
     max-width: 100%;
+  }
+
+  .video-center iframe {
+    width: 80vw;
+    height: 45vw;
   }
 }
 
