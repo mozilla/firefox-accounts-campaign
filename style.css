@@ -131,6 +131,10 @@ li {
   color: #fff;
 }
 
+.action-highlight a {
+  color: #fff;
+}
+
 .share-buttons {
   display: flex;
   justify-content: space-evenly;
