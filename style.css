@@ -119,6 +119,7 @@ li {
   color: #ff0039;
   display: flex;
   justify-content: center;
+  margin-bottom: 10vh;
 }
 
 .cta p {
@@ -144,6 +145,7 @@ li {
 .share-buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .share-buttons img {
@@ -325,6 +327,10 @@ footer a {
   .goals h2 {
     padding-left: 0;
     text-align: center;
+  }
+
+  .goals-content {
+    margin-top: 10vh;
   }
 
   .card {
