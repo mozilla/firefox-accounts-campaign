@@ -20,6 +20,11 @@ html {
 
 body {
   font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+}
+
+.container {
   padding-left: 5vw;
   padding-right: 5vw;
 }
@@ -222,11 +227,54 @@ li {
 .icons {
   text-align: center;
   font-size: 0.5rem;
-  color: #737373;
+  color: #fff;
+  background-color: #000;
+  padding-top: 10vh;
+  padding-bottom: 5px;
 }
 
 .icons a {
   color: #fff;
+}
+
+footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  padding-top: 2vh;
+}
+
+footer img {
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+footer h3 {
+  padding-top: 30px;
+  font-family: 'MetropolisMedium';
+}
+
+footer ul {
+  padding-right: 50vw;
+}
+
+footer li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+footer img {
+  width: 10vw;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {
