@@ -91,7 +91,7 @@ li {
 }
 
 .row.no-space img {
-  padding-left: 10vw;
+  margin-left: 5vw;
 }
 
 .row:first-of-type {
@@ -99,7 +99,8 @@ li {
 }
 
 .lead {
-  width: 35vw;
+  width: 60vw;
+  margin-right: 5vw;
 }
 
 .cta {
