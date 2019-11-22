@@ -335,6 +335,12 @@ footer a {
 
   .card {
     max-width: 100%;
+    padding: 0;
+    margin-bottom: 5vh;
+  }
+
+  .card.action-highlight {
+    padding: 20px;
   }
 
   .cta p {
